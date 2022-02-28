@@ -6,9 +6,9 @@ This meta-repository contains the official OmpSs-2@Clusters programming model's 
 
 OmpSs-2@Clusters is based in the original OmpSs-2 and most of the documentation also valid.
 
-* OmpSs-2 User Guide: https://pm.bsc.es/ompss-2-docs/user-guide  
-* OmpSs-2 Specification: https://pm.bsc.es/ompss-2-docs/spec  
-* OmpSs-2 Examples: https://pm.bsc.es/gitlab/ompss-2/examples  
+* OmpSs-2 User Guide: https://pm.bsc.es/ompss-2-docs/user-guide
+* OmpSs-2 Specification: https://pm.bsc.es/ompss-2-docs/spec
+* OmpSs-2 Examples: https://pm.bsc.es/gitlab/ompss-2/examples
 * OmpSs-2 Docker Images: https://hub.docker.com/r/bscpm/ompss-2
 * OmpSs-2 Release Notes: [NEWS.md](./NEWS.md)
 
@@ -30,7 +30,7 @@ After cloning this repository, run the following command to move to a particular
 OmpSs-2 release:
 
 ```
-$ git checkout 2021.05
+$ git checkout 2022.02
 ```
 
 Then, run the command below to download the Nanos6 and Mercurium
