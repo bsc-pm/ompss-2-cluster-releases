@@ -30,7 +30,7 @@ After cloning this repository, run the following command to move to a particular
 OmpSs-2 release:
 
 ```
-$ git checkout 2022.02
+$ git checkout 2022.12
 ```
 
 Then, run the command below to download the Nanos6 and Mercurium

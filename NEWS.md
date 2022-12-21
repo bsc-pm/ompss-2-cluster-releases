@@ -3,6 +3,24 @@ All notable changes to the OmpSs-2@Clusters programming model, the
 Nanos6 runtime system, the Mercurium source-to-source compiler will be
 documented in this file.
 
+## Version 2022.12, Wed Dec 21, 2022
+
+### General
+- Several important performance improvements and bug fixes.
+- Integrating the [**DLB**](https://github.com/bsc-pm/dlb/) library for Dynamic Load Balancing with the Nanos6@Cluster runtime [[1]](#1).
+- Introducing the ``auto`` and ``none`` clauses permitting productive development of programs with nested tasks [[2]](#2).
+
+### Instrumentation
+- Improved STATS instrumentation report enhancing readability.
+
+<a id="1">[1]</a>
+Jimmy Aguilar Mena, Omar Shaaban, Victor Lopez, Marta Garcia, Paul Carpenter, Eduard Ayguade, and Jesus Labarta. Transparent load balancing of MPI programs using OmpSs-2@Cluster and DLB. ICPP2022.
+
+<a id="2">[2]</a>
+Omar Shaaban, Jimmy Aguilar Mena, Vicenç Beltran, Paul Carpenter, Eduard Ayguade and Jesus Labarta Mancho. Automatic aggregation of subtask accesses for nested OpenMP-style tasks. SBAC-PAD 2022.
+
+
+
 ## Version 2022.02, Mon Feb 28, 2022
 The OmpSs-2@Clusters 2022.02 contains several improvements and fixes.
 
